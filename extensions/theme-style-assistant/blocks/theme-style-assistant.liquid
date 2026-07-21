@@ -1,0 +1,13 @@
+{% if request.design_mode %}
+  <div id="theme-style-assistant-root"></div>
+  {{ 'theme-style-assistant.css' | asset_url | stylesheet_tag }}
+  <script src="{{ 'theme-style-assistant.js' | asset_url }}" defer></script>
+{% endif %}
+
+{% schema %}
+{
+  "name": "样式提示助手",
+  "target": "body",
+  "settings": []
+}
+{% endschema %}

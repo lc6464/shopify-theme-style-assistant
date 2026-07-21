@@ -1,0 +1,19 @@
+{
+  "name": "theme-style-assistant",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Shopify theme app extension for generating Chinese AI prompts for scoped custom CSS edits.",
+  "scripts": {
+    "dev": "shopify app dev",
+    "build": "shopify app build",
+    "deploy": "shopify app deploy"
+  },
+  "devDependencies": {
+    "@shopify/cli": "4.4.0"
+  },
+  "dependencies": {
+    "@shopify/ui-extensions": "^2026.7.0-rc.7",
+    "preact": "^10.29.7",
+    "preact-iso": "^2.12.0"
+  }
+}
